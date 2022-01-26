@@ -1,0 +1,112 @@
+body {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.counter {
+    background-color: #FFFCD5;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    border: 10px solid black;
+    border-radius: 7%;
+}
+
+#counter-heading {
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#screen {
+    margin-top: 20px;
+    font-size: 160px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+button {
+    margin: 0px;
+    background-color: rgb(251, 254, 231);
+    border: 2px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 12px 13px;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#plus {
+    width: 10vw;
+    margin: 0px;
+}
+
+#minus {
+    width: 10vw;
+    margin: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#reset {
+    margin: 0px;
+    width: 10vw;
+}
+
+@media (max-width:600px) {
+    .counter {
+        height: 70vh;
+        width: 85vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        display: block;
+        border: 10px solid black;
+        border-radius: 5%;
+    }
+    #counter-heading {
+        padding-top: 20px;
+    }
+    #screen {
+        margin-top: 40px;
+        font-size: 100px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    button {
+        margin: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 8px 8px;
+        font-size: 16px;
+    }
+    #plus {
+        width: 20vw;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    #minus {
+        width: 20vw;
+        margin: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #reset {
+        margin: 0px;
+        width: 20vw;
+    }
+}
