@@ -89,14 +89,11 @@ button {
         font-weight: bold;
     }
     button {
-        margin: 20px;
         padding: 8px 8px;
         font-size: 16px;
     }
     #plus {
         width: 20vw;
-        margin-bottom: 15px;
-
     }
     #minus {
         width: 20vw;
