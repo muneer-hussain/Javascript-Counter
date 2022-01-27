@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    overflow: hidden;
+
 }
 
 .counter {
@@ -89,11 +89,13 @@ button {
         font-weight: bold;
     }
     button {
+
         padding: 8px 8px;
         font-size: 16px;
     }
     #plus {
         width: 20vw;
+
     }
     #minus {
         width: 20vw;
